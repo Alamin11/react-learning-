@@ -1,0 +1,16 @@
+.welcomeMsg {
+    font-size: 1.7rem;
+    background-color: hsl(120, 100%, 25%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.loginMsg {
+    font-size: 1.7rem;
+    background-color: hsl(0, 93%, 43%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

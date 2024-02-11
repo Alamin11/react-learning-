@@ -1,15 +1,17 @@
 import Card from './Card.jsx'
 import Button from './Button/Button.jsx'
 import Student from './StudentCard/Student.jsx';
+import Greeting from './conditional-rendering/Greeting.jsx';
 
 function App() {
   return (
     <>
+      <Greeting isLoggedIn={true} />
       <Card />
       <Button />
       <Card />
       <Card />
-      
+
       {/* 
       props = read only properties that are shared between components.
       A parent component can send data to a child component
